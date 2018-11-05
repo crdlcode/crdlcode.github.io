@@ -1,10 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="public/styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png">
+    <title>Curtis Chat</title>
 </head>
+
 <body>
-	<h1>hello</h1>
+    <header class="landing-page" id="landing-page">
+        <div class="landing-page-container wrapper">
+            <nav class="nav-bar">
+                <a href="/">
+                    <h3>ツ</h3>
+                </a>
+                <div class="hamburger hamburger--collapse">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner">
+                        </span>
+                    </span>
+                    <ul class="nav-sections toggle">
+                        <li class="underline-anim">
+                            <a href="#landing-page">
+                                <h4>Home</h4>
+                            </a>
+                        </li>
+                        <li class="underline-anim">
+                            <a href="#about">
+                                <h4>About</h4>
+                            </a>
+                        </li>
+                        <li class='underline-anim'>
+                            <a href="#projects">
+                                <h4>Projects</h4>
+                            </a>
+                        </li>
+                        <li class="underline-anim">
+                            <a href="#contact">
+                                <h4>Contact</h4>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="landing-page-body">
+                <h1 class="landing-page-body--name">CURTIS CHAT</h1>
+                <h4 class="landing-page-body--position">Web Developer | Designer</h4>
+            </div>
+            <a class="get-started" href="#about"><i class="fas fa-sort-down get-started"></i></a>
+        </div>
+    </header>
+
+    <section class="about" id="about">
+        <div class="about-container wrapper">
+            <div class="bio">
+                <h3>Hi, I'm Curtis.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, laboriosam, odit. Facere tempora, ipsa ipsum, ipsam dolorem quis commodi magnam quisquam modi hic possimus animi inventore beatae quibusdam amet explicabo!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint voluptatibus necessitatibus blanditiis nemo ullam, placeat suscipit iusto voluptate temporibus quam.</p>
+            </div>
+            <div class="skills">
+                <h3>What's In My Toolbox.</h3>
+                <ul class="skills-list">
+                    <li class="icon-container">
+                      <i class="devicon-ruby-plain-wordmark colored icon"></i>
+                    </li>
+                    <li class="icon-container">
+                      <i class="devicon-rails-plain-wordmark colored icon"></i>
+                    </li>
+                    <li class="icon-container">
+                      <i class="devicon-react-plain-wordmark colored icon"></i>
+                    </li>
+                    <li class="icon-container">
+                        <i class="devicon-javascript-plain colored icon"></i>
+                    </li>
+                    <li class="icon-container">
+                        <i class="devicon-jquery-plain-wordmark colored icon"></i>
+                    </li>
+                    <li class="icon-container">
+                        <i class="devicon-sass-original colored icon"></i>
+                    </li>
+                    <li class="icon-container">
+                        <i class="devicon-html5-plain-wordmark colored icon"></i>
+                    </li>
+                    <li class="icon-container">
+                        <i class="devicon-css3-plain-wordmark colored icon"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <main class="projects" id="projects">
+        <div class="projects-container wrapper">
+            <h2 class="projects-title">Projects.</h2>
+
+            <div class="project">
+                <div class="project-bio">
+                    <h3 class="project-title">Project Space</h3>
+                    <ul class="stack-list">
+                        <li>Ruby</li>
+                        <li>Rails</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur ad reiciendis quo, suscipit rem ipsa accusantium eius, quaerat cumque, laudantium sunt fuga quasi amet libero. Minus aspernatur autem architecto incidunt ducimus quidem placeat, similique iste sed rerum culpa hic corporis.</p>
+                    <div class="view-project">
+                        <a target="_blank" class="underline-anim" href="">View
+                            Live</a>
+                        <a target="_blank" class="underline-anim" href="">View
+                            on Github</a>
+                    </div>
+                </div>
+                <div class="project-image">
+                    <a target="_blank" href="">
+                        <img src="./assets/project1-screenshot.png" alt="screenshot of landing page Project Space">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="contact" id="contact">
+        <div class="contact-container wrapper">
+            <h2 class="contact-title">Contact.</h2>
+            <div class="email-container">
+                <div class="email-icon-container">
+                    <i class="far fa-envelope email-icon"></i>
+                </div>
+                <h6>curtis.chat.hk@gmail.com</h6>
+            </div>
+            <form class="contact-form" method="POST" action="">
+                <div class="contact-form-row-1">
+                    <div class="input-container">
+                        <input name="message-name" id="message-name" type="text" autocomplete="off" required>
+                        <label for="message-name">Name</label>
+                    </div>
+                    <div class="input-container">
+                        <input name="message-email" id="message-email" type="text" autocomplete="off" required>
+                        <label for="message-name">Email</label>
+                    </div>
+                </div>
+                <div class="input-container subject-container">
+                    <input name="message-subject" id="message-subject" type="text" autocomplete="off" required>
+                    <label for="message-subject">Subject</label>
+                </div>
+                <div class="input-container message-container">
+                    <textarea name="message-body" id="message-body" cols="30" rows="7" autocomplete="off" required></textarea>
+                    <label id="message-body-label" for="message-body">Enter your message here</label>
+                </div>
+                <button class="form-submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-container wrapper">
+            <a href="#landing-page">
+                <h3 class="footer-title">Curtis Chat ツ</h3>
+            </a>
+            <ul class="social-media-list">
+                <li class="linked-in">
+                    <a target="_blank" href="https://www.linkedin.com/in/curtischathk/">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li class="github">
+                    <a target="_blank" href="https://github.com/crdlcode">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="medium">
+                    <a target="_blank" href="https://medium.com/">
+                        <i class="fab fa-medium"></i>
+                    </a>
+                </li>
+                <li class="twitter">
+                    <a target="_blank" href="https://twitter.com/crdlcode/">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+            </ul>
+            <h5 class="copyright">Copyright © 2018 Curtis Chat</h5>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="public/scripts/app.js"></script>
 </body>
+
 </html>
