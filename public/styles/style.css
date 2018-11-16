@@ -174,7 +174,7 @@ input::-moz-focus-inner {
 /* FONT-FAMILY */
 /* COLORS */
 html {
-  font-family: "Ubuntu", serif;
+  font-family: "fira code", serif;
   font-size: 62.5%; }
 
 body {
@@ -187,7 +187,7 @@ h4,
 h5,
 h6,
 p {
-  font-family: "Ubuntu", serif; }
+  font-family: "fira code", serif; }
 
 h1 {
   font-size: 5.2rem;
