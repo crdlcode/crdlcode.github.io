@@ -291,7 +291,7 @@ button {
 .landing-page {
   height: 100vh;
   width: 100%;
-  background-color: #d0d9d9;
+  background-color: white;
   position: relative; }
   .landing-page-container {
     height: 100%;
